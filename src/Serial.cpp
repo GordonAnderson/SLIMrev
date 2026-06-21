@@ -8,9 +8,9 @@
 // Gordon Anderson — GAA Custom Electronics, LLC
 
 #include "Arduino.h"
+#include <Errors.h>
 #include "string.h"
 #include "Serial.h"
-#include "Errors.h"
 #include <FlashStorage.h>
 #include <Wire.h>
 #include <SPI.h>

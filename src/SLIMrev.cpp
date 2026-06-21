@@ -17,6 +17,7 @@
 // gaa@owt.com
 
 #include <Arduino.h>
+#include <Errors.h>
 #include <variant.h>
 #include <wiring_private.h>
 #include "SERCOM.h"
@@ -30,7 +31,6 @@
 
 #include "Hardware.h"
 #include "SLIMrev.h"
-#include "Errors.h"
 #include "Serial.h"
 
 // ── Version string (stored in FLASH to save RAM) ─────────────────────────────

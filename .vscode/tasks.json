@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Clean All (build + libdeps cache)",
+            "type": "shell",
+            "command": "rm -rf .pio/libdeps && pio run -t clean",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Clean GAACE_Core cache only",
+            "type": "shell",
+            "command": "rm -rf .pio/libdeps/adafruit_trinket_m0/GAACE_Core && pio run",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        }
+    ]
+}
