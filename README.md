@@ -1,7 +1,7 @@
 # SLIMrev
 
-Firmware for the SLIM (Sequential Linear Ion Manipulation) Reverser module.
-The SLIM Reverser accepts eight Twave electrode input signals and provides eight switched outputs, allowing the direction of ion travel through the Twave to be reversed under software or hardware control.
+Firmware for the SLIM (Structure for Lossless Ion Manipulation) Reverser module.
+The SLIM Reverser accepts eight Twave electrode input signals and provides eight switched outputs, allowing the direction of ion travel through the Twave to be reversed under software or hardware control. This was developed to support any Twave system not just SLIM.
 
 Developed by **Gordon Anderson — GAA Custom Electronics, LLC**
 
